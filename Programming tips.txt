@@ -1,0 +1,82 @@
+By Vendrix 31/07/18
+
+1.
+Code that's designed to be easy to read and understand is 100000x 
+more valuable than code that's been designed to be simple to write.
+Adding abstraction to save keystrokes is often a major foot gun. 
+Adding abstraction to aid in understanding and simplicity is the key.
+Note that this means abstraction should be used carefully,
+as abstraction usually makes code MORE complicated.
+
+2.
+Be explicit about everything, even it means more verbose names and control structures. 
+Never use abbreviations, avoid optional parameters, avoid optional Boolean flags etc.
+
+3.
+In OO code, avoid deep hierarchies.
+There is rarely a benefit. 
+And that goes for deep prototype chains in JS as well.
+Flat structures are far easier to reason about.
+
+4.
+Be idiomatic follow conventions and idioms for the language you program in.
+
+5.
+Be obsessively consistent in everything. Names, syntax, patterns etc. Just be consistent.
+
+6.
+Use A hybrid of test-driven development and Documentation-driven design. TDD helps you write simple code,
+but can lead to clunky and cumbersome APIs. 
+Start by designing the absolutely most awesome, ideal, simplest, intuitive API you can and document how it should be used.
+If it's hard to document and explain, it's likely a bad API.
+Then when you're happy with the API, use TDD to design the implementation behind that API. 
+TDD will help you focus on keeping the implementation dead simple.
+
+7.
+Get sleep.
+
+8.Learn by breaking down new subjects into tiny digestible 
+chunks, and reinforce those chunks by practicing over and over again. 
+Do variations of the same thing 100 times to help it sink in. 
+Learning React? Build a bunch of components. 
+See what props do, what the different lifecycle hooks do, etc etc.
+
+9.
+Read the fucking manual. 
+It's tempting to google how to solve a problem, 
+and then just use a solution you find on faith, without really understanding it.
+This shortcut seems like a good idea at first, but it's actually the long / hard way.
+Just spend a day or a week or however long you need to read the documentation for the tool you're using, and really understand it.
+Programming through Google and SO answers is like fumbling around in the dark and/or navigating by looking through a microscope
+
+10.
+Need to fix a bug or add a feature and confused by complex code you inherit or wrote months ago?
+Refactor it to be simpler and understandable first, then add the feature or fix the bug. 
+Don't ask permission from your manager, just fucking do it 
+(but may want to avoid this if it ends up touching a lot of unrelated code, and/or isnt backed by tests!). 
+Explaining technical debt management to them if they don't know what it is may be useful, 
+but in the long run, managing technical debt "organically" as part of your job is the more productive option. 
+This is analogous to cleaning your kitchen while you cook so that it doesn't have a chance to turn into a massive shitpile
+that requires a dedicated time block just to clean it up.
+
+
+
+/////// JS Tips /////////
+
+JavaScript is one of the most popular programming languages on earth
+and is used to add interactivity to webpages,
+process data, as well as create various applications
+(mobile apps, desktop apps, games, and more)
+
+The type attribute: <script type="text/javascript"> is also no longer required, 
+as JavaScript is the default HTML scripting language.
+
+JS Naming rules:
+- The first character must be a letter, an underscore (_), or a dollar sign ($). Subsequent characters may be letters, 
+  digits, underscores, or dollar signs.
+- Numbers are not allowed as the first character.
+- Variable names cannot include a mathematical or logical operator in the name. For instance, 2*something or this+that;
+- JavaScript names must not contain spaces
+
+/////////END///////////
+
