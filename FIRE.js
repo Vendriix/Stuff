@@ -1,3 +1,5 @@
+//🔥🔥🔥🔥🔥🔥
+
 //By Vendrix
 //Doctype JavaScript
 
