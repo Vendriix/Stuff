@@ -1,0 +1,29 @@
+
+//Doctype C++
+//By Vendrix
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+    int ageUtilisateur (19);
+    int nombreAmis (463);
+
+    double pi (3.14159);
+    bool estMonAmi (true);
+    char lettre ('a');
+    string userName ('Batman');
+
+    int a(-1);
+    int b(56);
+    int c(788);
+    string prenom('Bruce');
+    string nom('Wayne');
+
+
+      return 0;
+}

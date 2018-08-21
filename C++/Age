@@ -1,0 +1,25 @@
+//Doctype C++
+//By Vendrix
+
+//Pour demander l'age de quelqu'un
+
+#include <iostream>
+
+int main()
+{
+
+//poser la question 'Quel age avez-vous?'
+  cout << "Quel age avez-vous?" << '\n' endl;
+
+//declarer la variable ageUserVar qui contiens l'age de l'utilisateur
+//on met directement la variable à 0 en attendant l'input de l'utilisateur
+  int ageUserVar (0);
+
+//on demande l'utilisateur d'entrer son age
+  :cin >> ageUserVar ;
+
+//on rentre l'age de l'utilisateur à travers la variable
+  :cout << "Vous Avez " << ageUserVar <<' ans !' '\n' endl;
+
+  return 0;
+}
